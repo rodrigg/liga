@@ -23,7 +23,9 @@ public void onApplicationEvent(ContextRefreshedEvent arg0) {
 	Equipo equipo = new Equipo();
 	equipo.setNombre("Athletic");
 	equipoRepository.save(equipo);
+
 	System.out.println("master");
+
 	
 }
 }
